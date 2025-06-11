@@ -25,15 +25,15 @@ It supports:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/jagdishtripathy/tinyai-cyberbot.git
-cd tinyai-cyberbot
+git clone https://github.com/jagdishtripathy/TinyAI.git
+cd TinyAI
 ```
 
 ### 2. Setup Python Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt #run the file for dependencies
 ```
 
 ### 3. Download & Place Model
@@ -73,6 +73,7 @@ While TinyAI doesn’t replace your SIEM, it enhances your incident response and
 - Modify `mydata.csv` to reflect your role/profile
 - Extend `log_patterns.csv` with new use cases
 - Integrate with alert sources for real-time interaction
+- After some modification you can use it for realtime log analysis.
 
 ---
 
