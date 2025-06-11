@@ -1,0 +1,6 @@
+MODEL_PATH = "D:/AI/openhermes-2.5-mistral-7b.Q4_K_M.gguf"
+PROFILE_PATH = "profile.json"
+MEMORY_PATH = "memory.json"
+CHAT_HISTORY_PATH = "chat_history.json"
+MYDATA_CSV = "mydata.csv"
+LOG_PATTERNS_CSV = "log_patterns.csv"

@@ -1,0 +1,11 @@
+LogType,Example,WhatToLookFor
+SSH,Failed password for root from 192.168.0.5 port 22 ssh2,Brute-force attack indication
+Apache,"127.0.0.1 - - [10/Oct/2024:13:55:36 +0000] ""GET /admin HTTP/1.1"" 404 209",Scanning for admin panel
+Windows Event,EventID 4625: An account failed to log on.,"Failed login attempts, potential brute-force"
+Firewall,Deny TCP 192.168.1.100:12345 -> 10.0.0.1:80,Unauthorized port access attempt
+Web Application,POST /login.php HTTP/1.1 - 200 OK,Authentication event; monitor for brute-force
+Email,Subject: Urgent! Verify your account immediately,Possible phishing email
+DNS,Query: suspicious-domain.xyz from 192.168.1.10,DNS tunneling or C2 communication
+Proxy,CONNECT suspicious-site.com:443,Attempt to bypass security via proxy
+Database,SELECT * FROM users WHERE '1'='1',SQL injection attempt
+SIEM,Multiple failed logins followed by successful login,Compromised credentials
